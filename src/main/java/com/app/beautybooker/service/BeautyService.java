@@ -21,5 +21,9 @@ public class BeautyService {
         beauty = beautyRepository.save(beauty);
         return modelMapper.map(beauty, BeautyResponseDTO.class);
     }
-}
 
+    public BeautyResponseDTO getBeautyServiceById(int id) {
+        Beauty beauty = beautyRepository.findById(id).orElseThrow(() -> new RuntimeException("Serviço não encontrado"));
+        return modelMapper.map(beauty, BeautyResponseDTO.class);
+    }
+}
