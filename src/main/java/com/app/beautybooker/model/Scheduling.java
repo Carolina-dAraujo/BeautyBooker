@@ -25,7 +25,7 @@ public class Scheduling {
 
     @ManyToOne
     @JoinColumn(name = "beauty_service_id")
-    private BeautyService beautyService;
+    private Beauty beautyService;
 
     private Date dateTime;
     private String status;
