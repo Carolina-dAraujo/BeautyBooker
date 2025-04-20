@@ -73,5 +73,5 @@ jwt.secret=yourSecretKey
 Developed by **Carol Araújo**, Information Systems student at UFRPE and software engineering intern.  
 A curious full-stack development.
 
-🔗 [GitHub]([https://github.com/jehmesquita](https://github.com/Carolina-dAraujo)
-🔗 [LinkedIn]([https://www.linkedin.com/in/your-profile-url](https://www.linkedin.com/in/carolina-de-ara%C3%BAjo-339bba18b/)
+🔗 [GitHub](https://github.com/Carolina-dAraujo)
+🔗 [LinkedIn](https://www.linkedin.com/in/carolina-de-ara%C3%BAjo-339bba18b/)
