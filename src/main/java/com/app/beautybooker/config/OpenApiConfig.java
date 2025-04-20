@@ -13,14 +13,14 @@ public class OpenApiConfig {
         return new OpenAPI().info(new Info()
                 .title("BeautyBooker API")
                 .version("1.0")
-                .description("API para agendamento de serviços de beleza."));
+                .description("API for beauty services' scheduling."));
     }
 
     @Bean
     public GroupedOpenApi publicApi() {
         return GroupedOpenApi.builder()
                 .group("public")
-                .pathsToMatch("/api/**")
+                .pathsToMatch("/beautybooker/**")
                 .build();
     }
 }

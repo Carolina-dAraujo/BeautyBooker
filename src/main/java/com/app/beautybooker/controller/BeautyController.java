@@ -19,7 +19,6 @@ public class BeautyController {
         return beautyService.createBeautyService(beautyRequestDTO);
     }
 
-    // Endpoint para obter um serviço de beleza por ID
     @GetMapping("/{id}")
     public BeautyResponseDTO getBeautyServiceById(@PathVariable int id) {
         return beautyService.getBeautyServiceById(id);
