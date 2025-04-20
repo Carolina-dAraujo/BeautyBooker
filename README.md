@@ -40,3 +40,12 @@ src/
 ├── repository/     # JPA Repository interfaces
 ├── service/        # Business logic
 └── BeautyBookerApplication.java
+
+---
+
+## 🧪 How to Run
+
+Clone the repository:
+```bash
+git clone https://github.com/jehmesquita/beautybooker-backend.git
+cd beautybooker-backend
