@@ -40,6 +40,7 @@ src/
 ├── repository/     # JPA Repository interfaces
 ├── service/        # Business logic
 └── BeautyBookerApplication.java
+```
 
 ---
 
@@ -49,3 +50,30 @@ Clone the repository:
 ```bash
 git clone https://github.com/jehmesquita/beautybooker-backend.git
 cd beautybooker-backend
+```
+### Configure your `application.properties`:
+
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/beautybooker
+spring.datasource.username=yourUsername
+spring.datasource.password=yourPassword
+jwt.secret=yourSecretKey
+```
+
+## 🛠️ Build and Run
+
+```bash
+./mvnw spring-boot:run
+```
+## 🌐 Access Swagger UI
+
+• URL: `http://localhost:8080/swagger-ui.html`  
+• [Click to open Swagger UI](http://localhost:8080/swagger-ui.html)
+
+## 👩‍💻 About Me
+
+Developed by **Carol Araújo**, Information Systems student at UFRPE and software engineering intern.  
+A curious full-stack development.
+
+🔗 [GitHub]([https://github.com/jehmesquita](https://github.com/Carolina-dAraujo))  
+🔗 [LinkedIn]([https://www.linkedin.com/in/your-profile-url](https://www.linkedin.com/in/carolina-de-ara%C3%BAjo-339bba18b/))
